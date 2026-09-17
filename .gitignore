@@ -1,0 +1,21 @@
+/node_modules
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.pnpm-debug.log*
+.env*
+!.env.example
+.vercel
+*.tsbuildinfo
+.preview-db/
+
+# Créatives : sorties, photos et profil Chrome restent hors du dépôt
+creatives/png/
+creatives/html/
+creatives/photo/
+creatives/archive/
+creatives/chrome-profile/
+creatives/*.zip
